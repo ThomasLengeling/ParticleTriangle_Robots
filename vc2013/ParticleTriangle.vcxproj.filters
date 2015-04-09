@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Blocks">
+      <UniqueIdentifier>{3A71859A-9C4C-4B65-8215-FA86BBE8730A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Warping">
+      <UniqueIdentifier>{3ED7301C-AC28-4AAB-A733-53B1636B10DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Warping\include">
+      <UniqueIdentifier>{46F36130-4898-4528-9B8A-6E0236E8DC00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Warping\src">
+      <UniqueIdentifier>{BAAA5588-03E9-4E5A-A274-AADD56BF311C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\OpenCV">
+      <UniqueIdentifier>{9022FA34-9F4D-441C-9710-B0EF7CC0992D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\OpenCV\include">
+      <UniqueIdentifier>{BFA400E9-C9F9-41AB-9E23-52FC9E29C040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\OSC">
+      <UniqueIdentifier>{C9B9D7BE-7B53-4FF4-8891-169FDD76F41E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\OSC\src">
+      <UniqueIdentifier>{088636B6-3638-4D93-ABA7-45960ED78364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\OSC\src\ip">
+      <UniqueIdentifier>{9C3032AD-E038-49AB-810B-CE1CBA835679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\OSC\src\osc">
+      <UniqueIdentifier>{0D126EE6-E773-41EE-8318-7EDC83F24D99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\OSC\src\ip\win32">
+      <UniqueIdentifier>{5B65A0CF-1DF4-4AC0-930F-40028A85A133}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Traer">
+      <UniqueIdentifier>{ec804733-477b-46a8-9bac-fb32c7978d0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Traer\src">
+      <UniqueIdentifier>{90a03b41-403c-40e5-bf53-c1f59cb1bf0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Traer\include">
+      <UniqueIdentifier>{a5e0b3d1-7d75-475b-b924-a8031cbb8349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Fade2D">
+      <UniqueIdentifier>{4fc94c87-f510-431b-9701-b6f4b164e751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{2db0b8e0-8a2e-4a96-970f-1c9247bc25d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Texture">
+      <UniqueIdentifier>{9b5c0bee-cc6c-4976-b8fb-b96429ba195e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\ParticleTriangleApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClCompile Include="..\src\ParticleTriangleApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClInclude Include="..\blocks\Warping\include\Warp.h">
+      <Filter>Blocks\Warping\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\Warping\include\WarpBilinear.h">
+      <Filter>Blocks\Warping\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\Warping\include\WarpPerspective.h">
+      <Filter>Blocks\Warping\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\Warping\include\WarpPerspectiveBilinear.h">
+      <Filter>Blocks\Warping\include</Filter>
+    </ClInclude>
+    <ClCompile Include="..\blocks\Warping\src\Warp.cpp">
+      <Filter>Blocks\Warping\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blocks\Warping\src\WarpBilinear.cpp">
+      <Filter>Blocks\Warping\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blocks\Warping\src\WarpPerspective.cpp">
+      <Filter>Blocks\Warping\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blocks\Warping\src\WarpPerspectiveBilinear.cpp">
+      <Filter>Blocks\Warping\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\blocks\OpenCV\include\CinderOpenCV.h">
+      <Filter>Blocks\OpenCV\include</Filter>
+    </ClInclude>
+    <ClCompile Include="..\blocks\OSC\src\OscBundle.cpp">
+      <Filter>Blocks\OSC\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blocks\OSC\src\OscListener.cpp">
+      <Filter>Blocks\OSC\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blocks\OSC\src\OscMessage.cpp">
+      <Filter>Blocks\OSC\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blocks\OSC\src\OscSender.cpp">
+      <Filter>Blocks\OSC\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blocks\OSC\src\ip\IpEndpointName.cpp">
+      <Filter>Blocks\OSC\src\ip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blocks\OSC\src\osc\OscOutboundPacketStream.cpp">
+      <Filter>Blocks\OSC\src\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blocks\OSC\src\osc\OscPrintReceivedElements.cpp">
+      <Filter>Blocks\OSC\src\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blocks\OSC\src\osc\OscReceivedElements.cpp">
+      <Filter>Blocks\OSC\src\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blocks\OSC\src\osc\OscTypes.cpp">
+      <Filter>Blocks\OSC\src\osc</Filter>
+    </ClCompile>
+    <ClInclude Include="..\blocks\OSC\src\OscArg.h">
+      <Filter>Blocks\OSC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\OSC\src\OscBundle.h">
+      <Filter>Blocks\OSC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\OSC\src\OscListener.h">
+      <Filter>Blocks\OSC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\OSC\src\OscMessage.h">
+      <Filter>Blocks\OSC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\OSC\src\OscSender.h">
+      <Filter>Blocks\OSC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\OSC\src\ip\IpEndpointName.h">
+      <Filter>Blocks\OSC\src\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\OSC\src\ip\NetworkingUtils.h">
+      <Filter>Blocks\OSC\src\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\OSC\src\ip\PacketListener.h">
+      <Filter>Blocks\OSC\src\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\OSC\src\ip\TimerListener.h">
+      <Filter>Blocks\OSC\src\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\OSC\src\ip\UdpSocket.h">
+      <Filter>Blocks\OSC\src\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\OSC\src\osc\MessageMappingOscPacketListener.h">
+      <Filter>Blocks\OSC\src\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\OSC\src\osc\OscException.h">
+      <Filter>Blocks\OSC\src\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\OSC\src\osc\OscHostEndianness.h">
+      <Filter>Blocks\OSC\src\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\OSC\src\osc\OscOutboundPacketStream.h">
+      <Filter>Blocks\OSC\src\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\OSC\src\osc\OscPacketListener.h">
+      <Filter>Blocks\OSC\src\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\OSC\src\osc\OscPrintReceivedElements.h">
+      <Filter>Blocks\OSC\src\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\OSC\src\osc\OscReceivedElements.h">
+      <Filter>Blocks\OSC\src\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\OSC\src\osc\OscTypes.h">
+      <Filter>Blocks\OSC\src\osc</Filter>
+    </ClInclude>
+    <ClCompile Include="..\blocks\OSC\src\ip\win32\NetworkingUtils.cpp">
+      <Filter>Blocks\OSC\src\ip\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blocks\OSC\src\ip\win32\UdpSocket.cpp">
+      <Filter>Blocks\OSC\src\ip\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\blocks\CinderTraer\src\ModifiedEulerIntegrator.cpp">
+      <Filter>Blocks\Traer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\blocks\CinderTraer\src\RungeKuttaIntegrator.cpp">
+      <Filter>Blocks\Traer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\blocks\CinderTraer\src\Spring.cpp">
+      <Filter>Blocks\Traer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\blocks\CinderTraer\src\Attraction.cpp">
+      <Filter>Blocks\Traer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\blocks\CinderTraer\src\EulerIntegrator.cpp">
+      <Filter>Blocks\Traer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Tessellation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\blocks\CinderTraer\src\ParticleTraer.cpp">
+      <Filter>Blocks\Traer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\blocks\CinderTraer\src\ParticleSystemTraer.cpp">
+      <Filter>Blocks\Traer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleSystemBit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\blocks\CinderTraer\include\Integrator.h">
+      <Filter>Blocks\Traer\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\blocks\CinderTraer\include\ModifiedEulerIntegrator.h">
+      <Filter>Blocks\Traer\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\blocks\CinderTraer\include\RungeKuttaIntegrator.h">
+      <Filter>Blocks\Traer\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\blocks\CinderTraer\include\Spring.h">
+      <Filter>Blocks\Traer\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\blocks\CinderTraer\include\Attraction.h">
+      <Filter>Blocks\Traer\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\blocks\CinderTraer\include\EulerIntegrator.h">
+      <Filter>Blocks\Traer\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\blocks\CinderTraer\include\Force.h">
+      <Filter>Blocks\Traer\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Fade2D\fadeRelease1.16\include_fade2d\common.h">
+      <Filter>Blocks\Fade2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Fade2D\fadeRelease1.16\include_fade2d\ConstraintGraph2.h">
+      <Filter>Blocks\Fade2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Fade2D\fadeRelease1.16\include_fade2d\ConstraintSegment2.h">
+      <Filter>Blocks\Fade2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Fade2D\fadeRelease1.16\include_fade2d\Fade_2D.h">
+      <Filter>Blocks\Fade2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Fade2D\fadeRelease1.16\include_fade2d\Label.h">
+      <Filter>Blocks\Fade2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Fade2D\fadeRelease1.16\include_fade2d\License.h">
+      <Filter>Blocks\Fade2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Fade2D\fadeRelease1.16\include_fade2d\Performance.h">
+      <Filter>Blocks\Fade2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Fade2D\fadeRelease1.16\include_fade2d\Point2.h">
+      <Filter>Blocks\Fade2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Fade2D\fadeRelease1.16\include_fade2d\RefineCandidate.h">
+      <Filter>Blocks\Fade2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Fade2D\fadeRelease1.16\include_fade2d\Segment2.h">
+      <Filter>Blocks\Fade2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Fade2D\fadeRelease1.16\include_fade2d\Triangle2.h">
+      <Filter>Blocks\Fade2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Fade2D\fadeRelease1.16\include_fade2d\TriangleAroundVertexIterator.h">
+      <Filter>Blocks\Fade2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Fade2D\fadeRelease1.16\include_fade2d\Vector2.h">
+      <Filter>Blocks\Fade2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Fade2D\fadeRelease1.16\include_fade2d\Visualizer2.h">
+      <Filter>Blocks\Fade2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Fade2D\fadeRelease1.16\include_fade2d\Zone2.h">
+      <Filter>Blocks\Fade2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Fade2D\fadeRelease1.16\include_fade2d\Bbox2.h">
+      <Filter>Blocks\Fade2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Fade2D\fadeRelease1.16\include_fade2d\Circle2.h">
+      <Filter>Blocks\Fade2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Fade2D\fadeRelease1.16\include_fade2d\Color.h">
+      <Filter>Blocks\Fade2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleTriangleApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\TriangleVertex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ColorManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SurfaceColor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Tessellation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\toggleEvents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\blocks\CinderTraer\include\ParticleTraer.h">
+      <Filter>Blocks\Traer\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\blocks\CinderTraer\include\ParticleSystemTraer.h">
+      <Filter>Blocks\Traer\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\AetherFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleSystemBit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleBit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\TriangulatedFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Renders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Osc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\resources\blur_frag.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="..\resources\blur_vert.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="..\resources\mix_frag.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="..\resources\passThruVert.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="..\resources\phong_frag.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="..\resources\phong_vert.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="..\resources\wireframeFrag.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="..\resources\wireframeGeom.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="..\resources\wireframeVert.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="..\resources\blend_frag.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\resources\unnamed.jpg">
+      <Filter>Resource Files\Texture</Filter>
+    </Image>
+    <Image Include="..\resources\debula01.jpg">
+      <Filter>Resource Files\Texture</Filter>
+    </Image>
+    <Image Include="..\resources\debula02.jpg">
+      <Filter>Resource Files\Texture</Filter>
+    </Image>
+    <Image Include="..\resources\debula03.jpg">
+      <Filter>Resource Files\Texture</Filter>
+    </Image>
+    <Image Include="..\resources\Plano.jpg">
+      <Filter>Resource Files\Texture</Filter>
+    </Image>
+    <Image Include="..\resources\Chrysler 200.jpg">
+      <Filter>Resource Files\Texture</Filter>
+    </Image>
+    <Image Include="..\resources\chrysler_front.jpg">
+      <Filter>Resource Files\Texture</Filter>
+    </Image>
+    <Image Include="..\resources\chrysler_front_bw.jpg">
+      <Filter>Resource Files\Texture</Filter>
+    </Image>
+    <Image Include="..\resources\debula09.jpg">
+      <Filter>Resource Files\Texture</Filter>
+    </Image>
+    <Image Include="..\resources\debula04.jpg">
+      <Filter>Resource Files\Texture</Filter>
+    </Image>
+    <Image Include="..\resources\debula05.jpg">
+      <Filter>Resource Files\Texture</Filter>
+    </Image>
+    <Image Include="..\resources\debula06.jpg">
+      <Filter>Resource Files\Texture</Filter>
+    </Image>
+    <Image Include="..\resources\debula07.jpg">
+      <Filter>Resource Files\Texture</Filter>
+    </Image>
+    <Image Include="..\resources\debula08.jpg">
+      <Filter>Resource Files\Texture</Filter>
+    </Image>
+    <Image Include="..\resources\debula10.jpg">
+      <Filter>Resource Files\Texture</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

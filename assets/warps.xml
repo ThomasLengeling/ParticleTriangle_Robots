@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<warpconfig version="1.0" profile="default">
+	<profile name="default">
+		<map id="1" display="1">
+			<warp method="perspectivebilinear" width="9" height="9" brightness="1" resolution="64" linear="1" adaptive="0">
+				<controlpoint x="0" y="0"/>
+				<controlpoint x="-0.0272757206" y="0.101628885"/>
+				<controlpoint x="-0.0409582332" y="0.247271672"/>
+				<controlpoint x="-0.0442252606" y="0.367224783"/>
+				<controlpoint x="-0.0193517487" y="0.499441892"/>
+				<controlpoint x="0.0140701048" y="0.622983992"/>
+				<controlpoint x="0.0275544524" y="0.750904679"/>
+				<controlpoint x="0.0176671036" y="0.881142139"/>
+				<controlpoint x="0" y="1"/>
+				<controlpoint x="0.114889629" y="-0.0101460414"/>
+				<controlpoint x="0.122493461" y="0.111255229"/>
+				<controlpoint x="0.0973340571" y="0.227602527"/>
+				<controlpoint x="0.114050575" y="0.382284611"/>
+				<controlpoint x="0.11420925" y="0.498844683"/>
+				<controlpoint x="0.0888824984" y="0.625696421"/>
+				<controlpoint x="0.0511116423" y="0.759028792"/>
+				<controlpoint x="0.105261125" y="0.874057472"/>
+				<controlpoint x="0.115638062" y="1.01026273"/>
+				<controlpoint x="0.251786649" y="-0.0230436623"/>
+				<controlpoint x="0.206981957" y="0.134363115"/>
+				<controlpoint x="0.250620186" y="0.238342449"/>
+				<controlpoint x="0.247095793" y="0.380167425"/>
+				<controlpoint x="0.244334564" y="0.503559947"/>
+				<controlpoint x="0.22232464" y="0.63835746"/>
+				<controlpoint x="0.279011637" y="0.751178622"/>
+				<controlpoint x="0.238580689" y="0.888454258"/>
+				<controlpoint x="0.222131178" y="1.01533616"/>
+				<controlpoint x="0.369813949" y="-0.00861759018"/>
+				<controlpoint x="0.349240303" y="0.13387382"/>
+				<controlpoint x="0.372510165" y="0.242393464"/>
+				<controlpoint x="0.370666385" y="0.385099918"/>
+				<controlpoint x="0.370717287" y="0.503749728"/>
+				<controlpoint x="0.353844672" y="0.643813372"/>
+				<controlpoint x="0.345029801" y="0.755862594"/>
+				<controlpoint x="0.379991084" y="0.902716041"/>
+				<controlpoint x="0.346045017" y="0.997101843"/>
+				<controlpoint x="0.477039784" y="0.0115693007"/>
+				<controlpoint x="0.469352216" y="0.131338522"/>
+				<controlpoint x="0.501741529" y="0.241273507"/>
+				<controlpoint x="0.478460342" y="0.395050466"/>
+				<controlpoint x="0.515579641" y="0.495706499"/>
+				<controlpoint x="0.473911166" y="0.648284018"/>
+				<controlpoint x="0.482785404" y="0.766187727"/>
+				<controlpoint x="0.484527528" y="0.888188303"/>
+				<controlpoint x="0.476780206" y="1.01968515"/>
+				<controlpoint x="0.594011903" y="0.0161350053"/>
+				<controlpoint x="0.616050303" y="0.126945868"/>
+				<controlpoint x="0.603479266" y="0.259299219"/>
+				<controlpoint x="0.59221071" y="0.398945838"/>
+				<controlpoint x="0.617169619" y="0.518644273"/>
+				<controlpoint x="0.640627027" y="0.627023578"/>
+				<controlpoint x="0.620799065" y="0.766188025"/>
+				<controlpoint x="0.636759877" y="0.896055877"/>
+				<controlpoint x="0.645330787" y="0.990554571"/>
+				<controlpoint x="0.733356893" y="0.00620617764"/>
+				<controlpoint x="0.742355049" y="0.131333664"/>
+				<controlpoint x="0.742064834" y="0.259487689"/>
+				<controlpoint x="0.758692086" y="0.395769656"/>
+				<controlpoint x="0.718985319" y="0.523366392"/>
+				<controlpoint x="0.751338422" y="0.636622965"/>
+				<controlpoint x="0.731930673" y="0.771512687"/>
+				<controlpoint x="0.72704345" y="0.883802235"/>
+				<controlpoint x="0.749539495" y="1.00527966"/>
+				<controlpoint x="0.878601789" y="0.0138407331"/>
+				<controlpoint x="0.875" y="0.124772191"/>
+				<controlpoint x="0.861680806" y="0.270523965"/>
+				<controlpoint x="0.88876915" y="0.392646611"/>
+				<controlpoint x="0.854995072" y="0.528965473"/>
+				<controlpoint x="0.875766218" y="0.64104414"/>
+				<controlpoint x="0.875882745" y="0.769400239"/>
+				<controlpoint x="0.858875751" y="0.892864287"/>
+				<controlpoint x="0.861861467" y="1.01533115"/>
+				<controlpoint x="1" y="0"/>
+				<controlpoint x="0.978089571" y="0.137068778"/>
+				<controlpoint x="0.977064431" y="0.275594234"/>
+				<controlpoint x="0.976134241" y="0.394553065"/>
+				<controlpoint x="0.977920651" y="0.521523297"/>
+				<controlpoint x="0.993305981" y="0.659664273"/>
+				<controlpoint x="0.99257797" y="0.761373341"/>
+				<controlpoint x="0.98608458" y="0.915335"/>
+				<controlpoint x="1" y="1"/>
+				<corner x="0.247023806" y="0.0314285718"/>
+				<corner x="0.751190484" y="0.0257142857"/>
+				<corner x="0.725000024" y="0.976190448"/>
+				<corner x="0.238095239" y="0.965714276"/>
+			</warp>
+		</map>
+	</profile>
+</warpconfig>
+
